@@ -11,18 +11,19 @@ A Python and astrodynamics pipeline that forecasts Chinese imaging reconnaissanc
 
 ### Tech Stack & Dependencies
 - Python 3.x
-- skyfield
-- sgp4
-- pandas / numpy
-- jplephem (for solar ephemeris calculations)
+- `skyfield`
+- `sgp4`
+- `pandas` / `numpy`
+- `jplephem` (for solar ephemeris calculations)
 
 ### Sample Output (UTC / Zulu)
-text
+```text
 09-28 20:37 to 09-28 21:03 | [O] ALL CLEAR     |  26.2 min
 09-28 21:03 to 09-28 21:05 | [X] SAT OVERHEAD  |   1.3 min
 09-28 21:05 to 09-28 21:09 | [-] MICRO-GAP     |   4.3 min (Too short: <15m)
 09-28 21:09 to 09-28 21:10 | [X] SAT OVERHEAD  |   1.2 min
 09-28 21:10 to 09-28 22:04 | [O] ALL CLEAR     |  54.2 min
+```
 
  ### How to use
 - Download Celestrak TLE files from https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=tle and save the file name as active_sats.txt.
