@@ -1,6 +1,6 @@
 # Orbital Collection Forecast
 
-A Python and astrodynamics pipeline that forecasts Chinese imaging reconnaissance satellite overpasses for specified ground coordinates to identify unobserved operational security (OPSEC) windows.
+A Python program that forecasts Chinese imaging reconnaissance satellite overpasses for specified ground coordinates to identify unobserved operational security (OPSEC) windows.
 
 ### Features
 - Ingests public CelesTrak TLE orbital ephemeris data using Skyfield and SGP4.
